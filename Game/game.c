@@ -7,7 +7,7 @@ int main (){
     for(int i = 0; i < hight; i++){
                 
         for(int q = 0; q < width; q++){
-            if(i == 0 || i == hight - 1 || q == 0 || q == width - 1)
+            if(i == 0 || i == hight - 1 || q == 0 || q == width - 1 || i == 5 && q == 10)
                 printf("#");
             else
                 printf(" ");
