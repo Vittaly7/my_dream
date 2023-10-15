@@ -16,16 +16,19 @@ int main (){
                 
             for(int q = 0; q < width; q++){
                 if(i == 0 || i == hight - 1 || q == 0 || q == width - 1){
-                printf("#");
+                    printf("#");
                 }
                 else if(i == hightY && q == widthX){
-                printf("#");
+                    printf("#");
                 }
                 else
-                printf(" ");
+                    printf(" ");
             }
         
-        printf("\n");
+            printf("\n");
+        }
+    if(hightY <= 0 || hightY >= hight - 1 || widthX <= 0 || widthX >= width - 1){
+        printf("ERROR\n");
     }
     return 0;
 }
